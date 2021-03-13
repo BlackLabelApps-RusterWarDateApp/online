@@ -169,6 +169,22 @@ document.onclick=reEnable
                     {url:"https://rustedwardatehome.files.wordpress.com/2020/12/background-1.png"},
                         );
             </script>
+	<script language='Javascript' type='text/javascript'>
+	  document.oncontextmenu = function(){return false}
+	<!-- Begin
+		function disableselect(e){
+		return false
+		}
+		function reEnable(){
+		return true
+		}
+		document.onselectstart=new Function ("return false")
+		if (window.sidebar){
+		document.onmousedown=disableselect
+		document.onclick=reEnable
+		}
+	// End -->
+	</script>
 		<script type="text/javascript">
 //
 			
